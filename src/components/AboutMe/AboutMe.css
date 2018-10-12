@@ -1,0 +1,29 @@
+.aboutMe {
+	text-align: center;
+	color: white;
+}
+.paragraphContainer {
+	margin: 0 40px 0 40px;
+	border-top: 2px solid white;
+	font-size: 20px;
+}
+.technologiesContainer {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	border-top: 2px solid white;
+}
+
+.iconContainer img {
+	height: 100px;
+	padding: 20px;
+}
+
+@media (max-width: 480px) {
+	.iconContainer img {
+		height: 75px;
+		padding: 10px;
+	}
+}

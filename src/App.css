@@ -1,0 +1,45 @@
+body {
+  height: 100%;
+  width: 100%;
+  background: url("https://i.imgur.com/oCtteBS.jpg") no-repeat fixed center center;
+}
+.app {
+  height: 100%;
+  width: 100%;
+}
+.contentContainer {
+  position: relative;
+  top: 10vh;
+  margin: 0 auto;
+  height: auto;
+  width: 70vw;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  border: 3px solid white;
+  color: white;
+  text-align: center;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 30px;
+}
+p {
+  font-size: 20px;
+}
+
+@media (max-width: 920px) {
+  .contentContainer {
+    width: 90vw;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 15px;
+  }
+}

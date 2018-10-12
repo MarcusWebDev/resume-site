@@ -1,0 +1,10 @@
+.contactMe p {
+	margin-left: 10px;
+}
+.contactInfo {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
