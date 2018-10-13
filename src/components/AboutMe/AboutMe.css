@@ -3,8 +3,7 @@
 	color: white;
 }
 .paragraphContainer {
-	margin: 20px 40px 0 40px;
-	padding-top: 20px;
+	margin: 0 40px 0 40px;
 	border-top: 2px solid white;
 	font-size: 20px;
 }
@@ -15,9 +14,6 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	border-top: 2px solid white;
-}
-.technologiesContainer h2 {
-	margin-top: 20px;
 }
 
 .iconContainer img {
