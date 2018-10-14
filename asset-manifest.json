@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.1f601baf.chunk.css",
-  "main.js": "/static/js/main.1938423d.chunk.js",
-  "main.js.map": "/static/js/main.1938423d.chunk.js.map",
+  "main.css": "/static/css/main.60a3d34d.chunk.css",
+  "main.js": "/static/js/main.4d7b2dce.chunk.js",
+  "main.js.map": "/static/js/main.4d7b2dce.chunk.js.map",
   "static/js/1.2edf3ad1.chunk.js": "/static/js/1.2edf3ad1.chunk.js",
   "static/js/1.2edf3ad1.chunk.js.map": "/static/js/1.2edf3ad1.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -19,8 +19,8 @@
   "static/media/Express.png": "/static/media/Express.d638bd34.png",
   "static/media/PostgreSQL.png": "/static/media/PostgreSQL.e7999be0.png",
   "static/media/Logo.png": "/static/media/Logo.ff1349ff.png",
-  "static/css/main.1f601baf.chunk.css.map": "/static/css/main.1f601baf.chunk.css.map",
+  "static/css/main.60a3d34d.chunk.css.map": "/static/css/main.60a3d34d.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.b908ca5f248e26dce7ea83718babdd14.js": "/precache-manifest.b908ca5f248e26dce7ea83718babdd14.js",
+  "precache-manifest.2169c8125229459b8eac11ebdcbfbfbc.js": "/precache-manifest.2169c8125229459b8eac11ebdcbfbfbc.js",
   "service-worker.js": "/service-worker.js"
 }
