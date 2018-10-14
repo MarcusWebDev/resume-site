@@ -17,12 +17,11 @@
 	height: 30px;
 }
 .desktopNav ul{
-	margin-top: 35px;
 	height: 30px;
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: center;
+	align-items: center;
 }
 .desktopNav ul li {
 	display: flex;

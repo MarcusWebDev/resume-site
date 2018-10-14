@@ -11,8 +11,6 @@ body {
 }
 .contentContainer {
   position: relative;
-  /*top: 8vh;*/
-
   margin: 70px auto 10px;
   height: auto;
   width: 70vw;
