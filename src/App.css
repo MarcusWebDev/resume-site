@@ -4,13 +4,16 @@ body {
   background: url("./images/bussiness-computer-dim.jpg") no-repeat fixed center center;
 }
 .app {
+  display: flex;
+  flex-direction: column;
   height: 100%;
   width: 100%;
 }
 .contentContainer {
   position: relative;
-  top: 8vh;
-  margin: 0 auto 10px;
+  /*top: 8vh;*/
+
+  margin: 70px auto 10px;
   height: auto;
   width: 70vw;
   background: rgba(255, 255, 255, 0.1);
