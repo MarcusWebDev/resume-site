@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/Redux.59c46753.png"
   },
   {
-    "revision": "6d6a7fc6b7804c827721",
-    "url": "/static/css/main.4a539340.chunk.css"
+    "revision": "1938423d68c8812ac293",
+    "url": "/static/css/main.1f601baf.chunk.css"
   },
   {
     "revision": "2edf3ad1d390dc1165a6",
@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/static/media/logo.5d5d9eef.svg"
-  },
-  {
     "revision": "933297b7238f5b45386f8356adfc5c3c",
     "url": "/static/media/bussiness-computer-dim.933297b7.jpg"
+  },
+  {
+    "revision": "ff1349ff4fc3a7aeda11db078aad4cd9",
+    "url": "/static/media/Logo.ff1349ff.png"
   },
   {
     "revision": "1f851630df640828e3d1bb4cfff4c011",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/static/media/React.705fec42.png"
   },
   {
-    "revision": "6d6a7fc6b7804c827721",
-    "url": "/static/js/main.6d6a7fc6.chunk.js"
+    "revision": "1938423d68c8812ac293",
+    "url": "/static/js/main.1938423d.chunk.js"
   },
   {
     "revision": "a0143799c01b0737021c71badc23be0a",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/static/media/Smartbrain.b5ec3d54.png"
   },
   {
-    "revision": "84b63c0221220ed2fe1297761320677d",
+    "revision": "c2fbb8bff7dec13b23cce21715a85ff9",
     "url": "/index.html"
   }
 ];
