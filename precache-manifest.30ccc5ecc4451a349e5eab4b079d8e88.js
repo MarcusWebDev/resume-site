@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/Redux.59c46753.png"
   },
   {
-    "revision": "4d7b2dce9910d99ddf68",
-    "url": "/static/css/main.60a3d34d.chunk.css"
+    "revision": "57e1e7e439a3c11fb9e5",
+    "url": "/static/css/main.55473250.chunk.css"
   },
   {
     "revision": "2edf3ad1d390dc1165a6",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/static/media/React.705fec42.png"
   },
   {
-    "revision": "4d7b2dce9910d99ddf68",
-    "url": "/static/js/main.4d7b2dce.chunk.js"
+    "revision": "57e1e7e439a3c11fb9e5",
+    "url": "/static/js/main.57e1e7e4.chunk.js"
   },
   {
     "revision": "a0143799c01b0737021c71badc23be0a",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/static/media/Smartbrain.b5ec3d54.png"
   },
   {
-    "revision": "1a044c5fe097607042f1b4690f5fcdde",
+    "revision": "513d85ed79ac87aad80d46aaacd85721",
     "url": "/index.html"
   }
 ];
