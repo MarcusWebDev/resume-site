@@ -1,3 +1,9 @@
+.test {
+	height: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .logo {
 	height: 90px;
 	width: 90px;
@@ -6,16 +12,12 @@
 	align-self: center;
 }
 .desktopNav {
-	margin-top: 40px;
 	display: flex;
 	flex-direction: row;
 	height: 30px;
-	justify-content: center;
-	align-items: center;
 }
 .desktopNav ul{
 	margin-top: 35px;
-	margin-right: 35px;
 	height: 30px;
 	display: flex;
 	flex-direction: row;
@@ -36,7 +38,6 @@
 .phoneNav {
 	display: none;
 }
-
 li:hover {
 	transition: ease-in 0.2s;
 	background: rgba(255, 255, 255, 0.2);
@@ -51,7 +52,6 @@ li:hover {
 	.phoneNav {
 		text-align: center;
 		position: relative;
-		height: 76px;
 		margin: 0;
 		width: 100%;
 		display: block;
@@ -62,7 +62,6 @@ li:hover {
 		position: relative;
 		padding: 0;
 		margin: 0;
-		height: 76px;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
@@ -75,7 +74,7 @@ li:hover {
 		justify-content: center;
 		margin: 0;
 		flex: 1;
-		height: 76px;
+		height: 85px;
 		list-style-type: none;
 		color: white;
 		border-right: 3px solid white;
