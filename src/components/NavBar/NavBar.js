@@ -13,10 +13,10 @@ const NavBar = ({routeChange}) => {
 				</ul>
 			</nav>
 			<nav className="desktopNav">
-				<img className="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Logo_TV_2015.svg/1200px-Logo_TV_2015.svg.png"/>
 				<ul>
 					<li onClick={routeChange.bind('','aboutMe')} className="desktopAboutMe">About Me</li>
 					<li onClick={routeChange.bind('', 'portfolio')} className="desktopPortfolio">Portfolio</li>
+					<img className="logo" src={require("../../images/Logo.png")}/>
 					<li onClick={routeChange.bind('', 'resume')} className="desktopResume">Resume</li>
 					<li onClick={routeChange.bind('', 'contactMe')} className="desktopContactMe">Contact Me</li>
 				</ul>
