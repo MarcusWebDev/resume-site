@@ -12,6 +12,7 @@
 	align-self: center;
 }
 .desktopNav {
+	margin-top: 35px;
 	display: flex;
 	flex-direction: row;
 	height: 30px;
