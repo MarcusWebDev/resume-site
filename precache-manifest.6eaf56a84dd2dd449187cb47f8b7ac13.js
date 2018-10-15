@@ -68,15 +68,15 @@ self.__precacheManifest = [
     "url": "/static/media/PostgreSQL.e7999be0.png"
   },
   {
-    "revision": "bacfb38deabe96a0fc7d21206f2b8875",
-    "url": "/static/media/Robofriends.bacfb38d.png"
-  },
-  {
     "revision": "b5ec3d54e748b128391c709c8f7c00de",
     "url": "/static/media/Smartbrain.b5ec3d54.png"
   },
   {
-    "revision": "6f8640d133315cf29dfe211758895347",
+    "revision": "bacfb38deabe96a0fc7d21206f2b8875",
+    "url": "/static/media/Robofriends.bacfb38d.png"
+  },
+  {
+    "revision": "22594b504de121731852b49041abfe3b",
     "url": "/index.html"
   }
 ];
