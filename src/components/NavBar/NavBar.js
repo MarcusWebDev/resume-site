@@ -3,7 +3,7 @@ import './NavBar.css';
 
 const NavBar = ({routeChange}) => {
 	return (
-		<div className="test">
+		<div className="navBarContainer">
 			<nav className="phoneNav">
 				<ul>
 					<li onClick={routeChange.bind('','aboutMe')} className="phoneAboutMe">About Me</li>

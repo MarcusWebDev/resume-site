@@ -30,7 +30,7 @@ const Portfolio =() => {
 					<p className="phoneSummary">The front end of a face recognition app that uses React.js. Has a functioning sign in and register page and keeps track of user data.</p>
 				</div>
 				<div className="phoneSummaryContainer">
-					<a href="#">
+					<a href="https://github.com/MarcusWebDev/resumeSite">
 						<div className="projects">
 							<div className="resumeSite"></div>
 							<div className="shadowBox">
