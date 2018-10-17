@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/Redux.59c46753.png"
   },
   {
-    "revision": "3bb143eb2c0b8b26e66f",
-    "url": "/static/css/main.ef136461.chunk.css"
+    "revision": "e65d92545fc55be0e807",
+    "url": "/static/css/main.4e89a550.chunk.css"
   },
   {
     "revision": "7eef557ac522c8312a49",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "8dc86f164cb837807aba337351757b3a",
-    "url": "/static/media/Resume.8dc86f16.pdf"
+    "revision": "d3d67ef15d88566120fff019c7ca51ef",
+    "url": "/static/media/Resume.d3d67ef1.pdf"
   },
   {
     "revision": "933297b7238f5b45386f8356adfc5c3c",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/static/media/React.705fec42.png"
   },
   {
-    "revision": "3bb143eb2c0b8b26e66f",
-    "url": "/static/js/main.3bb143eb.chunk.js"
+    "revision": "e65d92545fc55be0e807",
+    "url": "/static/js/main.e65d9254.chunk.js"
   },
   {
     "revision": "a0143799c01b0737021c71badc23be0a",
@@ -69,7 +69,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "3735673b820b209e4deff4f7f15a9c47",
-    "url": "/static/media/ResumeSite.3735673b.png"
+    "url": "/static/media/ResumeSite.3735673b.PNG"
   },
   {
     "revision": "bacfb38deabe96a0fc7d21206f2b8875",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/static/media/Smartbrain.b5ec3d54.png"
   },
   {
-    "revision": "1de65c88a272f1d3c1f9398d75975865",
+    "revision": "795a4d126dccf142f51bd69330c48481",
     "url": "/index.html"
   }
 ];
