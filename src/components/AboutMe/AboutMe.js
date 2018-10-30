@@ -7,8 +7,8 @@ const AboutMe = () => {
 			<h1>Marcus Brooks</h1>
 			<h2>Web Developer</h2>
 			<div className="paragraphContainer">
-				<p>Hello! My name is Marcus Brooks. I am a self taught web developer who has spent the last 6 months studying web development from home. 
-				I am also a Computer Science major in college with a 3.69 GPA, working towards a Bachelor's degree.</p>
+				<p>Hello! My name is Marcus Brooks. I've taught myself web development alongside of what I've learned in college as a 
+				Computer Science major. I currently have a 3.69 GPA in college, and I'm working towards a Bachelor's degree.</p>
 				<div className="technologiesContainer">
 					<h2>I currently know the following technologies:</h2>
 					<div className="iconContainer">
