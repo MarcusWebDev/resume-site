@@ -4,7 +4,6 @@ import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import AboutMe from './components/AboutMe/AboutMe';
 import Portfolio from './components/Portfolio/Portfolio';
-import Resume from './components/Resume/Resume';
 import ContactMe from './components/ContactMe/ContactMe';
 import setRoute from './containers/reducers';
 import changeRoute from './containers/actions';
@@ -35,8 +34,6 @@ class App extends Component {
 	    		<AboutMe />
 	    		: route ===  'portfolio' ?
 	    		<Portfolio />
-	    		: route === 'resume' ?
-	    		<Resume />
 	    		: route === 'contactMe' ?
 	    		<ContactMe />
 	    		: 'no'

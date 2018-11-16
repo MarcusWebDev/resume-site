@@ -15,7 +15,7 @@ const ContactMe = () => {
 			</div>
 			<div className="contactInfo">
 				<h2>Github:</h2>
-				<p>https://github.com/MarcusWebDev</p>
+				<a href="https://github.com/MarcusWebDev">https://github.com/MarcusWebDev</a>
 			</div>
 		</div>
 	);

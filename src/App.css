@@ -24,13 +24,15 @@ h1 {
   font-size: 50px;
 }
 h2 {
+  margin: 20px;
   font-size: 30px;
 }
-p {
+p, a {
   font-size: 20px;
-  text-decoration: none;
 }
-
+a {
+  color: white;
+}
 @media (max-width: 920px) {
   .contentContainer {
     width: 90vw;
@@ -41,7 +43,7 @@ p {
   h2 {
     font-size: 25px;
   }
-  p {
+  p, a {
     font-size: 15px;
   }
 }

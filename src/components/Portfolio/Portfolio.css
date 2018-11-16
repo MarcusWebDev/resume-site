@@ -5,6 +5,18 @@
 	justify-content: center;
 	margin: 40px;
 }
+.githubLink {
+	border: 3px solid white;
+	border-radius: 100%;
+	height: 60px;
+	width: 60px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.githubLink:hover {
+	transition: 0.3s;
+	background: white;
+}
 .projects {
 	position: relative;
 	height: 300px;
@@ -12,7 +24,7 @@
 	border-radius: 20px;
 	border: 3px solid white;
 	overflow: hidden;
-	margin: 20px;
+	margin: 0px 60px 40px;
 }
 .phoneSummary {
 	display: none;
@@ -44,7 +56,15 @@
 	width: 300px;
 	border-radius: 20px;
 }
-
+.rainbowAngles {
+	background-image: url("../../images/RainbowAngles.PNG");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 300px;
+	border-radius: 20px;	
+}
 .shadowBox {
 	z-index: 2;
 	background: rgba(0,0,0,0);
@@ -55,7 +75,7 @@
 	height: 300px;
 	width: 300px;
 	border-radius: 20px;
-
+	transition: 0.3s;
 }
 .shadowBox p {
 	margin: 0 10px;
@@ -65,7 +85,7 @@
 }
 .shadowBox:hover {
 	z-index: 2;
-	transition: 0.3s ease-out;
+	transition: 0.3s;
 	background: rgba(0, 0, 0,0.9);
 	display: inline-block;
 	vertical-align: middle;
@@ -73,18 +93,23 @@
 	height: 300px;
 	width: 300px;
 }
-
+@media (max-width: 1332px) {
+	.projects {
+		margin: 0px 20px 40px;
+	}
+}
 @media (max-width: 920px) {
 	.projectsContainer {
 		flex-direction: column;
 	}
 	.projects {
+		margin: 0px 20px 20px;
 		height: 200px;
 		width: 200px;		
 	}
-	.phoneSummaryContainer {
+	.projectBlockContainer {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 	}
@@ -109,13 +134,14 @@
 		height: 200px;
 		width: 200px;
 	}
+	.rainbowAngles {
+		height: 200px;
+		width: 200px;
+	}
 }
 @media  (max-width: 480px) {
 	.projectsContainer {
 		margin: 0;
-	}
-	.projectsContainer p {
-		font-size: 14px;
 	}
 	.projects {
 		margin: 10px;
@@ -131,6 +157,10 @@
 		width: 150px;
 	}
 	.resumeSite {
+		height: 150px;
+		width: 150px;
+	}
+	.rainbowAngles {
 		height: 150px;
 		width: 150px;
 	}
