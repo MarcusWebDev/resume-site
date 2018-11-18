@@ -1,27 +1,46 @@
 import React from 'react';
 import './NavBar.css';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import AboutMe from '../AboutMe/AboutMe';
+import Portfolio from '../Portfolio/Portfolio';
+import ContactMe from '../ContactMe/ContactMe';
 
-const NavBar = ({routeChange}) => {
+const NavBar = () => {
 	return (
+		<Router>
 		<div className="navBarContainer">
 			<nav className="phoneNav">
 				<ul>
-					<li onClick={routeChange.bind('','aboutMe')} className="phoneAboutMe">About Me</li>
-					<li onClick={routeChange.bind('', 'portfolio')} className="phonePortfolio">Portfolio</li>
+					<li>
+						<Link to="/">About Me</Link>
+					</li>
+					<li>
+						<Link to="/portfolio/">Portfolio</Link>
+					</li>
 					<li className="phoneResume"><a href={require("../../images/Resume.pdf")}>Resume</a></li>
-					<li onClick={routeChange.bind('', 'contactMe')} className="phoneContactMe">Contact Me</li>
+					<li>
+						<Link to="/contact/">Contact Me</Link>
+					</li>
 				</ul>
 			</nav>
 			<nav className="desktopNav">
 				<ul>
-					<li onClick={routeChange.bind('', 'aboutMe')} className="desktopAboutMe">About Me</li>
-					<li onClick={routeChange.bind('', 'portfolio')} className="desktopPortfolio">Portfolio</li>
+					<li>
+						<Link to="/">About Me</Link>
+					</li>
+					<li>
+						<Link to="/portfolio/">Portfolio</Link>
+					</li>
 					<img className="logo" src={require("../../images/Logo.png")}/>
-					<li className="desktopResume"><a href={require("../../images/Resume.pdf")}>Resume</a></li>
-					<li onClick={routeChange.bind('', 'contactMe')} className="desktopContactMe">Contact Me</li>
+					<li><a href={require("../../images/Resume.pdf")}>Resume</a></li>
+					<li>
+						<Link to="/contact/">Contact Me</Link>
+					</li>
 				</ul>
 			</nav>
 		</div>
+				    
+		</Router>
 	);
 }
 

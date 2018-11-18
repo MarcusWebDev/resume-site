@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import './App.css';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
 import AboutMe from './components/AboutMe/AboutMe';
 import Portfolio from './components/Portfolio/Portfolio';
@@ -26,20 +27,16 @@ class App extends Component {
 
   	const { route, onRouteChange } = this.props
     return (
-    	<div className="app">
-    		<NavBar routeChange={onRouteChange}/>
-    		<div className="contentContainer">
-    		{route === 'aboutMe'
-	    		?
-	    		<AboutMe />
-	    		: route ===  'portfolio' ?
-	    		<Portfolio />
-	    		: route === 'contactMe' ?
-	    		<ContactMe />
-	    		: 'no'
-    		}
-    		</div>
-    	</div>
+    	<Router>
+	    	<div className="app">
+	    		<NavBar />
+	    		<div className="contentContainer">
+					<Route path="/" exact component={AboutMe} />
+				    <Route path="/portfolio/" exact component={Portfolio} />
+				    <Route path="/contact/" exact component={ContactMe} />
+	    		</div>
+	    	</div>
+    	</Router>
     );
   }
 }
