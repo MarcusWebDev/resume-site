@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import './App.css';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
 import AboutMe from './components/AboutMe/AboutMe';
 import Portfolio from './components/Portfolio/Portfolio';
@@ -31,9 +31,11 @@ class App extends Component {
 	    	<div className="app">
 	    		<NavBar />
 	    		<div className="contentContainer">
-					<Route path="/" exact component={AboutMe} />
-				    <Route path="/portfolio/" exact component={Portfolio} />
-				    <Route path="/contact/" exact component={ContactMe} />
+	    			<Switch>
+						<Route path="/" exact component={AboutMe} />
+					    <Route path="/portfolio/" component={Portfolio} />
+					    <Route path="/contact/" component={ContactMe} />
+				    </Switch>
 	    		</div>
 	    	</div>
     	</Router>

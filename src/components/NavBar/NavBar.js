@@ -1,13 +1,10 @@
 import React from 'react';
 import './NavBar.css';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import AboutMe from '../AboutMe/AboutMe';
-import Portfolio from '../Portfolio/Portfolio';
-import ContactMe from '../ContactMe/ContactMe';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
 	return (
-		<Router>
+
 		<div className="navBarContainer">
 			<nav className="phoneNav">
 				<ul>
@@ -39,8 +36,6 @@ const NavBar = () => {
 				</ul>
 			</nav>
 		</div>
-				    
-		</Router>
 	);
 }
 
