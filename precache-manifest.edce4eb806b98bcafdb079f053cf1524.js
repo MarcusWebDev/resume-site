@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/CommandLine.cacc6ad7.png"
   },
   {
-    "revision": "5a4bc0cbba4580a51984",
-    "url": "/static/css/main.579ef0e0.chunk.css"
+    "revision": "94c42756ce8efad59c0e",
+    "url": "/static/css/main.de6d93b2.chunk.css"
   },
   {
-    "revision": "42b465c9e02a523991ef",
-    "url": "/static/js/1.42b465c9.chunk.js"
+    "revision": "a7aac268c086a43ca8b2",
+    "url": "/static/js/1.a7aac268.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/static/media/Redux.11252c26.png"
   },
   {
-    "revision": "5a4bc0cbba4580a51984",
-    "url": "/static/js/main.5a4bc0cb.chunk.js"
+    "revision": "94c42756ce8efad59c0e",
+    "url": "/static/js/main.94c42756.chunk.js"
   },
   {
     "revision": "3af8e34b49d510b8aaca68f7adf4b776",
@@ -60,15 +60,15 @@ self.__precacheManifest = [
     "url": "/static/media/Smartbrain.f8c7963f.png"
   },
   {
-    "revision": "4431359783658125ceb763075a21376d",
-    "url": "/static/media/ResumeSite.44313597.PNG"
-  },
-  {
     "revision": "344f33a1213d441f136dd6f49cbb4e4a",
     "url": "/static/media/RainbowAngles.344f33a1.PNG"
   },
   {
-    "revision": "72ca75c964186d4ab70bfa3ed7e44880",
+    "revision": "4431359783658125ceb763075a21376d",
+    "url": "/static/media/ResumeSite.44313597.PNG"
+  },
+  {
+    "revision": "8404705b036920a35d5766f52801a461",
     "url": "/index.html"
   }
 ];
