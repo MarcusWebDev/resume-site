@@ -9,7 +9,7 @@ const Portfolio =() => {
 			<div className="projectsContainer">
 				<div className="projectBlockContainer">
 					<a href="https://github.com/MarcusWebDev/rainbowAngles">
-						<img className="githubLink" src={require("../../images/GitHub.svg")}/>
+						<img alt="Rainbow Angles github link" className="githubLink" src={require("../../images/GitHub.svg")}/>
 					</a>
 					<div className="projects">
 						<a href="https://rainbowangles.com">
@@ -23,7 +23,7 @@ const Portfolio =() => {
 				</div>
 				<div className="projectBlockContainer">
 					<a href="https://github.com/MarcusWebDev/robofriends">
-						<img className="githubLink" src={require("../../images/GitHub.svg")}/>
+						<img alt="Robofriends github link" className="githubLink" src={require("../../images/GitHub.svg")}/>
 					</a>
 					<div className="projects">
 						<a href="https://marcuswebdev.github.io/robofriends/">
@@ -37,7 +37,7 @@ const Portfolio =() => {
 				</div>
 				<div className="projectBlockContainer">
 					<a href="https://github.com/MarcusWebDev/smartbrain">
-						<img className="githubLink" src={require("../../images/GitHub.svg")}/>
+						<img alt="Smart brain github link" className="githubLink" src={require("../../images/GitHub.svg")}/>
 					</a>
 					<div className="projects">
 						<a href="https://face-recognition-smartbrain.herokuapp.com/">
@@ -51,7 +51,7 @@ const Portfolio =() => {
 				</div>
 				<div className="projectBlockContainer">
 					<a href="https://github.com/MarcusWebDev/resumeSite">
-						<img className="githubLink" src={require("../../images/GitHub.svg")}/>
+						<img alt="Resume website github link" className="githubLink" src={require("../../images/GitHub.svg")}/>
 					</a>
 					<div className="projects">
 						<a href="https://github.com/MarcusWebDev/resumeSite">

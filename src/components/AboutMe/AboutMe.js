@@ -12,18 +12,18 @@ const AboutMe = () => {
 				<div className="technologiesContainer">
 					<h2>I currently know the following technologies:</h2>
 					<div className="iconContainer">
-						<img src={require("../../images/HTML.png")}/>
-						<img src={require("../../images/CSS.png")}/>
-						<img src={require("../../images/JS.svg")}/>
-						<img src={require("../../images/React.png")}/>
-						<img src={require("../../images/Redux.png")}/>	
-						<img src={require("../../images/CommandLine.png")}/>
-						<img src={require("../../images/NPM.png")}/>
-						<img src={require("../../images/Git.png")}/>
-						<img src={require("../../images/GitHub.svg")}/>
-						<img src={require("../../images/Node.png")}/>
-						<img src={require("../../images/Express.png")}/>
-						<img src={require("../../images/PostgreSQL.png")}/>
+						<img alt="HTML5" src={require("../../images/HTML.png")}/>
+						<img alt="CSS3" src={require("../../images/CSS.png")}/>
+						<img alt="Javascript" src={require("../../images/JS.svg")}/>
+						<img alt="React.js" src={require("../../images/React.png")}/>
+						<img alt="Redux.js" src={require("../../images/Redux.png")}/>	
+						<img alt="Command Line" src={require("../../images/CommandLine.png")}/>
+						<img alt="Node Package Manager" src={require("../../images/NPM.png")}/>
+						<img alt="Git" src={require("../../images/Git.png")}/>
+						<img alt="Github" src={require("../../images/GitHub.svg")}/>
+						<img alt="Node.js" src={require("../../images/Node.png")}/>
+						<img alt="Express.js" src={require("../../images/Express.png")}/>
+						<img alt="PostgreSQL" src={require("../../images/PostgreSQL.png")}/>
 					</div>
 				</div>
 			</div>
