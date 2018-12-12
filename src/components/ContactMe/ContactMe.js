@@ -7,7 +7,7 @@ const ContactMe = () => {
 			<h1>Contact Me At</h1>
 			<div className="contactInfo">
 				<h2>Phone Number:</h2>
-				<p>304-433-2552</p>
+				<p>(304)433-2552</p>
 			</div>
 			<div className="contactInfo">
 				<h2>Email Address:</h2>
