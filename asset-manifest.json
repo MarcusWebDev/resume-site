@@ -1,12 +1,12 @@
 {
-  "main.css": "/static/css/main.462a1360.chunk.css",
-  "main.js": "/static/js/main.2da58b20.chunk.js",
-  "main.js.map": "/static/js/main.2da58b20.chunk.js.map",
+  "main.css": "/static/css/main.a7c98e62.chunk.css",
+  "main.js": "/static/js/main.de5b157a.chunk.js",
+  "main.js.map": "/static/js/main.de5b157a.chunk.js.map",
   "static/js/1.cac2dd25.chunk.js": "/static/js/1.cac2dd25.chunk.js",
   "static/js/1.cac2dd25.chunk.js.map": "/static/js/1.cac2dd25.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/Portfolio.css": "/static/media/RainbowAngles.bd776c5c.PNG",
+  "static/media/Portfolio.css": "/static/media/ResumeSite.44313597.PNG",
   "static/media/GitHub.svg": "/static/media/GitHub.76d344f0.svg",
   "static/media/App.css": "/static/media/bussiness-computer-dim.e93286d3.jpg",
   "static/media/JS.svg": "/static/media/JS.076eea1c.svg",
@@ -16,8 +16,8 @@
   "static/media/Express.png": "/static/media/Express.60a21276.png",
   "static/media/PostgreSQL.png": "/static/media/PostgreSQL.e38b86be.png",
   "static/media/Resume.pdf": "/static/media/Resume.1816561e.pdf",
-  "static/css/main.462a1360.chunk.css.map": "/static/css/main.462a1360.chunk.css.map",
+  "static/css/main.a7c98e62.chunk.css.map": "/static/css/main.a7c98e62.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.bc89b55b1ac6befb96b753b9797cef59.js": "/precache-manifest.bc89b55b1ac6befb96b753b9797cef59.js",
+  "precache-manifest.3b79ac076613e835789503bad517b4cc.js": "/precache-manifest.3b79ac076613e835789503bad517b4cc.js",
   "service-worker.js": "/service-worker.js"
 }
