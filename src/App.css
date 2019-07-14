@@ -1,7 +1,7 @@
 body {
   height: 100%;
   width: 100%;
-  background: url("./images/bussiness-computer-dim.jpg") no-repeat fixed center center;
+  background: black;
 }
 .app {
   display: flex;
@@ -11,12 +11,8 @@ body {
 }
 .contentContainer {
   position: relative;
-  margin: 70px auto 10px;
-  height: auto;
-  width: 70vw;
+  margin: 0;
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 20px;
-  border: 3px solid white;
   color: white;
   text-align: center;
 }

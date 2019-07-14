@@ -1,3 +1,1 @@
-const CHANGE_ROUTE = 'CHANGE_ROUTE';
-
-export default CHANGE_ROUTE;
+export const CHANGE_CARD_VIEW = 'CHANGE_CARD_VIEW';

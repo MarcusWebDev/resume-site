@@ -1,12 +1,29 @@
+.contactMe {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	background: black;
+	color: white;
+	border-top: 1px solid rgba(255,255,255,0.5);
+}
+.contactContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-left: 10vw;
+	margin-bottom: 20px;
+}
 .contactMe p, .contactMe a {
 	margin-left: 10px;
 	font-size: 20px;
 }
-
 .contactInfo {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+}
+.contactInfo p, .contactInfo h2 {
+	margin: 5px;
 }

@@ -1,18 +1,16 @@
-import CHANGE_ROUTE from './constants';
+import { CHANGE_CARD_VIEW } from './constants';
 
 const initialState = {
-	route: 'aboutMe'
+	currentCard: 'none'
 }
 
-const setRoute = (state=initialState, action={}) => {
+export const cardView = (state=initialState, action={}) => {
 	switch (action.type) {
-		case CHANGE_ROUTE:
+		case CHANGE_CARD_VIEW:
 			return Object.assign({}, state, {
-				route: action.payload
+				currentCard: action.payload
 			})
 		default:
 			return state;
 	}
 }
-
-export default setRoute;

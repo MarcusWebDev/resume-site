@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
 	return (
-
 		<div className="navBarContainer">
 			<nav className="phoneNav">
 				<ul>
@@ -21,18 +20,12 @@ const NavBar = () => {
 				</ul>
 			</nav>
 			<nav className="desktopNav">
+				<img className="logo" src={require("../../images/Logo.png")}/>
 				<ul>
-					<li>
-						<Link to="/">About Me</Link>
-					</li>
-					<li>
-						<Link to="/portfolio/">Portfolio</Link>
-					</li>
-					<img className="logo" src={require("../../images/Logo.png")}/>
+					<Link to="/">About Me</Link>
+					<Link to="/portfolio/">Portfolio</Link>
 					<li><a href={require("../../images/Resume.pdf")}>Resume</a></li>
-					<li>
-						<Link to="/contact/">Contact Me</Link>
-					</li>
+					<Link to="/contact/">Contact Me</Link>
 				</ul>
 			</nav>
 		</div>
