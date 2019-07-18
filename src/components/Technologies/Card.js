@@ -1,40 +1,47 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Card.css';
 
-const Card = ({name, image, description, onClick, currentCard}) => {
-	let expandCard = '';
-	if (currentCard === name) {
-		expandCard = 'expandedCard';
-	} else {
-		expandCard = '';
-	}
-	const workplease = () => {
-		if (currentCard === name) {
-			document.getElementById('cardDescription').style.color = '#2C2C2C';
-			document.getElementById('cardDescription').style.transition = '0';
-		} else {
-			setTimeout(() => {
-				document.getElementById('cardDescription').style.color = 'white';
-				document.getElementById('cardDescription').style.transition = '0.3s ease';
-			}, 700);
+class Card extends Component  {
+
+	render() {
+
+		const { name, image, description, onClick, currentCard } = this.props;
+
+		let expandCard = '';
+		let cardFadeStatus = '';
+		const changeDescriptionVisibility = () => {
+			if (currentCard === name) {
+				document.getElementById(name).classList.remove('cardActive');
+			} else {
+				setTimeout(()=> {
+					document.getElementById(name).classList.add('cardActive');
+				}, 1000)
+			}
 		}
+		if (currentCard === name) {
+			expandCard = 'expandedCard';
+			cardFadeStatus = 'fadedIn';	
+		} else {
+			cardFadeStatus = 'fadedOut';
+		}
+		return (
+			<div 
+				className={`card ${expandCard} ${cardFadeStatus}`} 
+				onClick={() => {
+					onClick();
+					document.getElementById(name).classList.toggle('textHidden');
+					changeDescriptionVisibility();
+				}}
+			>
+				<div>
+					<h2>{name}</h2>
+				</div>
+				<img src={image} />
+				<p id={`${name}`} className="textHidden cardInactive">{description}</p>
+			</div>
+		);
 	}
 
-	return (
-		<div 
-			className={`card ${expandCard}`} 
-			onClick={() => { 
-				onClick();
-				workplease();
-			}} 
-		>
-			<div>
-				<h2>{name}</h2>
-			</div>
-			<img src={image} />
-			<p id="cardDescription">{description}</p>
-		</div>
-	);
 }
 
 export default Card;

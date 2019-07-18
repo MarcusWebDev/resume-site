@@ -7,6 +7,9 @@
 	width: 100%;
 	background: #222222;
 }
+.technologiesContainer h1 {
+	z-index: 20;
+}
 .technologies {
 	display: flex;
 	flex-direction: row;

@@ -21,29 +21,25 @@ class Technologies extends Component {
 
 	render() {
 		const { changeCardView, currentCard } = this.props;
+		console.log(currentCard);
 		const filteredCards = technologiesList.map((technology, i) => {
-			if (currentCard !== 'none') {
-				if (currentCard === technologiesList[i].name) {
-					return (
-						<Card 
-							name = { technologiesList[i].name }
-							image = { technologiesList[i].image }
-							description = { technologiesList[i].description }
-							onClick = {() => changeCardView('none')}
-							currentCard = { currentCard }
-						/>
-					);
-				}
+
+			let cardView = '';
+			if (currentCard === technologiesList[i].name) {
+				cardView = 'none';
 			} else {
-				return (
-					<Card 
-						name = { technologiesList[i].name }
-						image = { technologiesList[i].image }
-						onClick = {() => changeCardView(technologiesList[i].name)}
-						currentCard = { currentCard }
-					/>
-				);
+				cardView = technologiesList[i].name;
 			}
+
+			return (
+				<Card 
+					name = { technologiesList[i].name }
+					image = { technologiesList[i].image }
+					description = { technologiesList[i].description }
+					onClick = {() => changeCardView(cardView)}
+					currentCard = { currentCard }
+				/>
+			);
 		})
 		return (
 			<div className="technologiesContainer">

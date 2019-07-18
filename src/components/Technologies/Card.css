@@ -20,23 +20,32 @@
 .card img {
 	height: 40%;
 }
-
-#cardDescription {
-	color: #2C2C2C;
+.cardInactive {
+	color: rgba(0,0,0,0);
+}
+.cardActive {
+	transition: 0.5s ease;
+	display: block;
+	color: white;
+	opacity: 100%;
+}
+.textHidden {
+	display: none;
 }
 .expandedCard {
-	position: relative;
+	position: absolute;
+	top: 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 	width: 100%;
-	height: auto;
+	height: 100%;
 	border-top: 1px solid white;
 	border-bottom: 1px solid white;
 	border-radius: 0;
 	margin: 0;
 	background: #2C2C2C;
-	transition: 0.5s;
+	transition: 1s;
 }
 .expandedCard img {
 	height: auto;
@@ -45,6 +54,12 @@
 .expandedCard p {
 	margin-left: 20vw;
 	margin-right: 20vw;
-	display: block;
-
+}
+.fadedOut {
+	opacity: 0%;
+	transition: 0.5s;
+}
+.fadedIn {
+	opacity: 100%;
+	transition: 0.5s;
 }
