@@ -1,13 +1,9 @@
-.absolutePosition {
-	position: absolute;
-}
 .card {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	background: #222222;
-	width: 200px;
-	height: 200px;
+	width: 10vw;
 	border-radius: 10px;
 	margin: 10px;
 	transition: position 3s;
@@ -18,25 +14,16 @@
 
 }
 .card h2 {
-	font-size: 2.5vh;
+	font-size: 100%;
 }
 .card img {
-	height: 40%;
+	width: 90%;
 }
 .card p {
 	margin: 0 20vw 0 20vw;
 }
 .textHidden {
 	display: none;
-}
-.movedToCenter {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-.expanded {
-	transition: ;
 }
 .fadedOut {
 	opacity: 0;
@@ -45,41 +32,4 @@
 .fadedIn {
 	opacity: 1;
 	transition: 0.5s;
-}
-@keyframes expand {
-	from {
-		position: static;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		background: #222222;
-		width: 200px;
-		height: 200px;
-		border-radius: 10px;
-		margin: 10px;
-	}
-	to {
-		position: absolute;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-end;
-		margin: 0;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		border-radius: 0;
-		z-index: 19;
-		background: #2C2C2C;
-	}
-}
-@keyframes moveToCenter {
-	0% {
-		position: static;
-	}
-	100% {
-		position: absolute;
-		top: 50;
-		left: 50;
-	}
 }

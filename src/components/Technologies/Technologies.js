@@ -20,26 +20,10 @@ const matchDispatchToProps = (dispatch) => {
 class Technologies extends Component {
 	constructor(props){
 		super(props);
-
-		this.cardCoordinates = {};
 	}
-
-	componentDidUpdate() {
-		if (this.props.currentCard !== 'none') {
-			document.getElementsByClassName('technologiesContainer')[0].style.height = this.containerCoordinates.height;
-			document.getElementsByClassName('technologiesContainer')[0].style.width = this.containerCoordinates.width;
-		} else {
-			document.getElementsByClassName('technologiesContainer')[0].style.height = 'auto';
-			document.getElementsByClassName('technologiesContainer')[0].style.width = '100%';
-		}
-	}
-
+	
 	render() {
 		const { changeCardView, currentCard } = this.props;
-		console.log(currentCard);
-		let containerCoordinates = {};
-
-
 
 		const filteredCards = technologiesList.map((technology, i) => {
 
@@ -62,16 +46,9 @@ class Technologies extends Component {
 			);
 		})
 		return (
-			<div 
-				className="technologiesContainer"
-				onload={() => {
-					this.containerCoordinates = document.getElementsByClassName('technologiesContainer')[0].getBoundingClientRect();
-					console.log(this.containerCoordinates);
-					
-				}}
-			>
+			<div id="technologiesContainer">
 				<h1>BUILDING WITH:</h1>
-				<div className="technologies">
+				<div id="technologies">
 					{ filteredCards }
 				</div>
 			</div>
