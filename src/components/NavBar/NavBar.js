@@ -27,10 +27,10 @@ const NavBar = () => {
 			<nav className="desktopNav">
 				<img className="logo" src={require("../../images/Logo.png")}/>
 				<ul>
-					<a onClick={() => urlCheck('aboutMe')}>About Me</a>
+					<a onClick={() => urlCheck('paragraphContainer')}>About Me</a>
 					<Link to="/portfolio/">Portfolio</Link>
 					<li><a href={require("../../images/Resume.pdf")}>Resume</a></li>
-					<a onClick={() => urlCheck('contactMe')}>Contact Me</a>
+					<a onClick={() => scrollTo('contactMe')}>Contact Me</a>
 				</ul>
 			</nav>
 		</div>
