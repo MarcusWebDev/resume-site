@@ -24,7 +24,7 @@ class Technologies extends Component {
 	
 	render() {
 		const { changeCardView, currentCard } = this.props;
-
+		//code for a future update to add interactivity to the technologies section
 		const filteredCards = technologiesList.map((technology, i) => {
 
 			let cardView = '';

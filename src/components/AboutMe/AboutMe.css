@@ -4,8 +4,9 @@
 	text-align: center;
 	color: white;
 }
-.parallaxContainer1 {
+.parallaxContainer {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	height: 90vh;
@@ -13,9 +14,9 @@
 	background: url("../../images/IMG_0994.JPG") no-repeat fixed center center;
 	background-size: cover;
 }
-.parallax1Text {
+.parallaxText {
 	color: white;
-	font-size: 30px;
+	font-size: 6vh;
 	font-weight: bold;
 }
 .paragraphContainer {
@@ -23,39 +24,40 @@
 	border-bottom: 1px solid rgba(255,255,255,0.5);
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
+	flex: wrap;
+	background: linear-gradient(to right, black 55%, #232323 75%, #232323 100%);
+
+}
+.paragraphContainer h1 {
+	font-size: 3vh;
+}
+.paragraphContainer p {
+	font-size: 2.5vh;
+}
+.paragraphContainer img {
 	height: 90vh;
-	background: black;
+	align-self: flex-end;
 }
 .textContainer {
-	flex: 1;
 	margin: 0 10vw;
 }
 .textContainer span {
 	margin-top: 2000px;
 }
-
-.paragraphContainer p {
+.underlined {
+	padding: 0px 20px 0px 20px;
+	border-bottom: 1px solid white;
 }
-.paragraphContainer img {
-	width: 35vw;
-}
-.parallaxContainer2 {
-	background: url("https://wow.zamimg.com/uploads/guide/images/16149.png") no-repeat fixed center center;
-	background-size: cover;
-	height: 80vh;
-}
-.technologiesContainer {
-
-}
-
-.iconContainer img {
-	height: 100px;
-	padding: 20px;
-}
-
-@media (max-width: 480px) {
-	.iconContainer img {
-		height: 75px;
-		padding: 10px;
+@media (max-width: 1024px) {
+	.paragraphContainer {
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		background: linear-gradient(black 25%, #232323 45%, #232323 100%);
+	}
+	.paragraphContainer img {
+		height: 60vh;
+		align-self: center;
 	}
 }

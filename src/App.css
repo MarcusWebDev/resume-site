@@ -16,17 +16,24 @@ body {
   color: white;
   text-align: center;
 }
+span {
+  font-family: copperplate;
+}
 h1 {
-  font-size: 50px;
+  font-size: 3.5vh;
+  font-family: copperplate;
 }
 h2 {
   margin: 20px;
-  font-size: 30px;
+  font-size: 2.8vh;
+  font-family: copperplate;
 }
 p, a {
-  font-size: 20px;
+  font-size: 2.5vh;
+  font-family: copperplate;
 }
 a {
   color: white;
+  font-family: copperplate;
 }
 

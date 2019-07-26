@@ -1,31 +1,36 @@
 import React from 'react';
-import './NavBar.css';
 import { Link } from 'react-router-dom';
+import * as Scroll from 'react-scroll';
+import {Link as scrollLink, Events, animateScroll as scroll, scrollSpy, scroller} from 'react-scroll';
+import './NavBar.css';
+
+const scrollTo = (target) => {
+	scroller.scrollTo(target, {
+		duration: 800,
+		delay: 0,
+		smooth: 'easeInOut',
+		offset: -72
+	})
+}
+const urlCheck = (location) => {
+	if (window.location.href === 'https://marcuswebdev.com/#/') {
+		scrollTo(location);
+	} else {
+		window.location.href = 'https://marcuswebdev.com/#/';
+		scrollTo(location);
+	}
+}
 
 const NavBar = () => {
 	return (
 		<div className="navBarContainer">
-			<nav className="phoneNav">
-				<ul>
-					<li>
-						<Link to="/">About Me</Link>
-					</li>
-					<li>
-						<Link to="/portfolio/">Portfolio</Link>
-					</li>
-					<li className="phoneResume"><a href={require("../../images/Resume.pdf")}>Resume</a></li>
-					<li>
-						<Link to="/contact/">Contact Me</Link>
-					</li>
-				</ul>
-			</nav>
 			<nav className="desktopNav">
 				<img className="logo" src={require("../../images/Logo.png")}/>
 				<ul>
-					<Link to="/">About Me</Link>
+					<a onClick={() => urlCheck('aboutMe')}>About Me</a>
 					<Link to="/portfolio/">Portfolio</Link>
 					<li><a href={require("../../images/Resume.pdf")}>Resume</a></li>
-					<Link to="/contact/">Contact Me</Link>
+					<a onClick={() => urlCheck('contactMe')}>Contact Me</a>
 				</ul>
 			</nav>
 		</div>
