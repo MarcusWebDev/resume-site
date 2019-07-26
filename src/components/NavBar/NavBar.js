@@ -17,6 +17,12 @@ const urlCheck = (location) => {
 		scrollTo(location);
 	} else {
 		window.location.href = 'https://marcuswebdev.com/#/';
+		scroller.scrollTo('aboutMe', {
+			duration: 0,
+			delay: 0,
+			smooth: 'easeInOut',
+			offset: -72
+		})
 		scrollTo(location);
 	}
 }
