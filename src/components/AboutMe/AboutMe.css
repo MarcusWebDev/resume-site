@@ -16,7 +16,7 @@
 }
 .parallaxText {
 	color: white;
-	font-size: 6vh;
+	font-size: 4vw;
 	font-weight: bold;
 }
 .paragraphContainer {
@@ -29,14 +29,8 @@
 	background: linear-gradient(to right, black 55%, #232323 75%, #232323 100%);
 
 }
-.paragraphContainer h1 {
-	font-size: 3vh;
-}
-.paragraphContainer p {
-	font-size: 2.5vh;
-}
 .paragraphContainer img {
-	height: 90vh;
+	height: 50vw;
 	align-self: flex-end;
 }
 .textContainer {
@@ -57,7 +51,6 @@
 		background: linear-gradient(black 25%, #232323 45%, #232323 100%);
 	}
 	.paragraphContainer img {
-		height: 60vh;
 		align-self: center;
 	}
 }

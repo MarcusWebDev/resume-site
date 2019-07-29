@@ -12,7 +12,7 @@ const ContactMe = () => {
 				</div>
 				<div className="contactInfo">
 					<h2>Email Address:</h2>
-					<p>MarcusBrooksWebDev@gmail.com</p>
+					<a href="mailto:MarucsBrooksWebDev@gmail.com">MarcusBrooksWebDev@gmail.com</a>
 				</div>
 				<div className="contactInfo">
 					<h2>Github:</h2>
