@@ -16,7 +16,7 @@
 }
 .parallaxText {
 	color: white;
-	font-size: 4vw;
+	font-size: 60px;
 	font-weight: bold;
 }
 .paragraphContainer {
@@ -30,7 +30,7 @@
 
 }
 .paragraphContainer img {
-	height: 50vw;
+	height: 45vw;
 	align-self: flex-end;
 }
 .textContainer {
@@ -52,5 +52,13 @@
 	}
 	.paragraphContainer img {
 		align-self: center;
+	}
+}
+@media (max-width: 700px) {
+	.paragraphContainer img {
+		height: 70vw;
+	}
+	.parallaxText {
+		font-size: 7vw;
 	}
 }

@@ -26,6 +26,13 @@
 .contactInfo p, .contactInfo h2 {
 	margin: 5px;
 }
-@media (max-width: 700px) {
 
+@media (max-width: 500px) {
+	.contactContainer h1 {
+		font-size: calc(20px + .5vw);
+	}
+	.contactMe p, .contactMe a {
+		font-size: calc(10px + .5vw);
+		margin-left: 5px;
+	}
 }
