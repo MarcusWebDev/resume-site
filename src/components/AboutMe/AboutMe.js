@@ -12,8 +12,9 @@ const AboutMe = () => {
 			<div className="paragraphContainer">
 				<div className="textContainer">
 					<h1>About Me</h1>
-					<p>Hello! My name is Marcus Brooks. I've taught myself web development alongside of what I've learned in college as a 
-					Computer Science major. I currently have a 3.76 GPA in college, and I'm working towards earning a Bachelor's degree. In my spare time I have been taking Udemy courses and working on projects to further develop my skills and understanding of web development.</p>
+					<p>Hello! My name is Marcus Brooks. I'm a developer interested in web development and game development. I've recently graduated with honors from Montgomery College with a GPA of 3.89.
+					I'm pursuing a Bachelor's degree at University of Maryland College Park! Outside of college I've been taking Udemy courses to continue to learn more about web development and game development, 
+					and I've recently begun participating in game jams!</p>
 				</div>
 				<img src={require("../../images/selfStencil.png")}/>
 			</div>

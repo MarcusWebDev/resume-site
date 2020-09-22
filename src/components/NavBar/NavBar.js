@@ -35,7 +35,7 @@ const NavBar = () => {
 				<ul>
 					<a onClick={() => urlCheck('paragraphContainer')}>About Me</a>
 					<Link to="/portfolio/">Portfolio</Link>
-					<li><a href={require("../../images/Resume.pdf")}>Resume</a></li>
+					<li><a href={require("../../images/Resume.docx")}>Resume</a></li>
 					<a onClick={() => scrollTo('contactMe')}>Contact Me</a>
 				</ul>
 			</nav>
