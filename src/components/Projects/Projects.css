@@ -6,6 +6,11 @@
     justify-content: center;
     align-items: center;
 }
+
+#projectsContentContainer {
+    width: 75%;
+}
+
 .projectsLink {
     color: white;
     font-size: 20px;

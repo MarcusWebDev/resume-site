@@ -2,10 +2,20 @@ import backgroundVideo from "./Assets/water-background.mp4";
 import './App.css';
 import { Outlet, useLocation } from "react-router-dom";
 import NavBar from "./Components/NavBar/NavBar.js";
+import NavBarMobile from "./Components/NavBarMobile/NavBarMobile.js";
+import { useEffect, useState } from "react";
 
 
 function App() {
   const location = useLocation();
+  const [isDesktop, setIsDesktop] = useState(false);
+  const updateSize = () => setIsDesktop(window.innerWidth > 1450);
+
+  useEffect(() => {
+    updateSize();
+    window.addEventListener("resize", updateSize);
+    return () => window.removeEventListener("resize", updateSize);
+  }, []);
 
   return (
     <div className="App">
@@ -13,8 +23,9 @@ function App() {
           <source src={backgroundVideo} type="video/mp4" />
       </video>
       <div id="backgroundFilter" />
-      <NavBar location={location} />
+      {isDesktop && <NavBar location={location} />}
       <Outlet />
+      {!isDesktop && <NavBarMobile location={location}/>}
     </div>
   );
 }
