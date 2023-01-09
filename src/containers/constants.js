@@ -1,1 +1,0 @@
-export const CHANGE_CARD_VIEW = 'CHANGE_CARD_VIEW';

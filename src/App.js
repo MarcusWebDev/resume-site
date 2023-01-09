@@ -1,32 +1,22 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
+import backgroundVideo from "./Assets/water-background.mp4";
 import './App.css';
-import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom';
-import NavBar from './components/NavBar/NavBar';
-import AboutMe from './components/AboutMe/AboutMe';
-import Portfolio from './components/Portfolio/Portfolio';
-import ContactMe from './components/ContactMe/ContactMe';
+import { Outlet, useLocation } from "react-router-dom";
+import NavBar from "./Components/NavBar/NavBar.js";
 
 
+function App() {
+  const location = useLocation();
 
-class App extends Component {
-
-  render() {
-    return (
-    	<Router>
-	    	<div className="app">
-	    		<NavBar />
-	    		<div className="contentContainer">
-	    			<Switch>
-						<Route path="/" exact component={AboutMe} />
-					    <Route path="/portfolio/" component={Portfolio} />
-				    </Switch>
-	    		</div>
-	    		<ContactMe />
-	    	</div>
-    	</Router>
-    );
-  }
+  return (
+    <div className="App">
+      <video autoPlay muted loop id="backgroundVideo">
+          <source src={backgroundVideo} type="video/mp4" />
+      </video>
+      <div id="backgroundFilter" />
+      <NavBar location={location} />
+      <Outlet />
+    </div>
+  );
 }
 
 export default App;

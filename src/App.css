@@ -1,32 +1,33 @@
-html {
-  font-size: calc(18px + .5vw);
-
-}
-body {
+.App {
+  text-align: center;
   height: 100vh;
   width: 100vw;
-  background: black;
-  font-family: copperplate;
-  color: white;
-}
-.app {
   display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: 100%;
-}
-.contentContainer {
-  position: relative;
-  margin: 0;
-  background: rgba(255, 255, 255, 0.1);
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
   color: white;
-  text-align: center;
 }
-h1 {
-  font-size: calc(30px + .5vw);
-}
-h2 {
-  font-size: calc(12px + .5vw);
-  margin: 20px;
+#backgroundFilter {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: -1;
 }
 
+#backgroundVideo {
+  object-fit: cover;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+p {
+  margin: 0;
+  font-size: 20px;
+}
