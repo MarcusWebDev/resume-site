@@ -1,5 +1,4 @@
 import React from "react";
-import backgroundVideo from "../../Assets/water-background.mp4";
 import profilePicture from "../../Assets/profilePicture.jpg";
 import "./Homepage.css";
 
