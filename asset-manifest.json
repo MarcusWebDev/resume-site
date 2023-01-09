@@ -1,33 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.835abc61.chunk.css",
-    "main.js": "/static/js/main.8d35af20.chunk.js",
-    "main.js.map": "/static/js/main.8d35af20.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.dd396543.js",
-    "runtime-main.js.map": "/static/js/runtime-main.dd396543.js.map",
-    "static/js/2.8b4928c3.chunk.js": "/static/js/2.8b4928c3.chunk.js",
-    "static/js/2.8b4928c3.chunk.js.map": "/static/js/2.8b4928c3.chunk.js.map",
+    "main.css": "/static/css/main.efc9bebe.css",
+    "main.js": "/static/js/main.06964881.js",
+    "static/js/787.bdde258d.chunk.js": "/static/js/787.bdde258d.chunk.js",
+    "static/media/water-background.mp4": "/static/media/water-background.89f69a58e29c5a51e6ff.mp4",
+    "static/media/profilePicture.jpg": "/static/media/profilePicture.01d32a642b5bec0efb90.jpg",
+    "static/media/Resume - Personal Project.pdf": "/static/media/Resume - Personal Project.435ce707c8c53aa7532b.pdf",
     "index.html": "/index.html",
-    "precache-manifest.d69c67b32e05c21e85037c9c722e1c25.js": "/precache-manifest.d69c67b32e05c21e85037c9c722e1c25.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.835abc61.chunk.css.map": "/static/css/main.835abc61.chunk.css.map",
-    "static/js/2.8b4928c3.chunk.js.LICENSE.txt": "/static/js/2.8b4928c3.chunk.js.LICENSE.txt",
-    "static/media/Express.png": "/static/media/Express.60a21276.png",
-    "static/media/GitHub.svg": "/static/media/GitHub.76d344f0.svg",
-    "static/media/AboutMe.css": "/static/media/IMG_0994.a4299fb3.JPG",
-    "static/media/JS.png": "/static/media/JS.f42ede83.png",
-    "static/media/Node.png": "/static/media/Node.3af8e34b.png",
-    "static/media/PostgreSQL.png": "/static/media/PostgreSQL.e38b86be.png",
-    "static/media/Portfolio.css": "/static/media/Smartbrain.f8c7963f.png",
-    "static/media/Redux.png": "/static/media/Redux.11252c26.png",
-    "static/media/Resume.docx": "/static/media/Resume.355c9f20.docx",
-    "static/media/selfStencil.png": "/static/media/selfStencil.bf694682.png",
-    "static/media/socketIO.svg": "/static/media/socketIO.5a391a91.svg"
+    "main.efc9bebe.css.map": "/static/css/main.efc9bebe.css.map",
+    "main.06964881.js.map": "/static/js/main.06964881.js.map",
+    "787.bdde258d.chunk.js.map": "/static/js/787.bdde258d.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.dd396543.js",
-    "static/js/2.8b4928c3.chunk.js",
-    "static/css/main.835abc61.chunk.css",
-    "static/js/main.8d35af20.chunk.js"
+    "static/css/main.efc9bebe.css",
+    "static/js/main.06964881.js"
   ]
 }
