@@ -8,14 +8,14 @@ const NavBarMobile = (props) => {
     return (
         <div>
             <div className={`hamburger ${isVisible ? "active" : ""}`} onClick={()=> setIsVisible(!isVisible)}>
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+                <span className="bar"></span>
+                <span className="bar"></span>
+                <span className="bar"></span>
             </div>
             <div id="navBarMobileContainer" className={`${isVisible ? "navBarWidth" : "noWidth"}`}>
                 <div id="mobileLinksContainer">
-                    <Link to="/" className={`${props.location.pathname == "/" ? "linkActive" : ""} navBarLink`} >Home</Link>
-                    <Link to="/projects" className={`${props.location.pathname == "/projects" ? "linkActive" : ""} navBarLink`} >Projects</Link>
+                    <Link to="/" className={`${props.location.pathname == "/" ? "mobileLinkActive" : ""} navBarLink`} >Home</Link>
+                    <Link to="/projects" className={`${props.location.pathname == "/projects" ? "mobileLinkActive" : ""} navBarLink`} >Projects</Link>
                     <a href={resume} className="navBarLink">Resume</a>
                 </div>
             </div>

@@ -21,7 +21,10 @@
     align-items: center;
     margin-top: 100px;
     cursor: pointer;
-    transition: 0.3s;
+}
+
+.mobileLinkActive {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 33%, rgba(255, 255, 255, 0.1) 100%);
 }
 
 .hamburger {
