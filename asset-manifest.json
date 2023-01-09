@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.efc9bebe.css",
-    "main.js": "/static/js/main.06964881.js",
-    "static/js/787.bdde258d.chunk.js": "/static/js/787.bdde258d.chunk.js",
-    "static/media/water-background.mp4": "/static/media/water-background.89f69a58e29c5a51e6ff.mp4",
-    "static/media/profilePicture.jpg": "/static/media/profilePicture.01d32a642b5bec0efb90.jpg",
-    "static/media/Resume - Personal Project.pdf": "/static/media/Resume - Personal Project.435ce707c8c53aa7532b.pdf",
-    "index.html": "/index.html",
-    "main.efc9bebe.css.map": "/static/css/main.efc9bebe.css.map",
-    "main.06964881.js.map": "/static/js/main.06964881.js.map",
-    "787.bdde258d.chunk.js.map": "/static/js/787.bdde258d.chunk.js.map"
+    "main.css": "/resumeSite/static/css/main.efc9bebe.css",
+    "main.js": "/resumeSite/static/js/main.b3d325b2.js",
+    "static/js/787.bdde258d.chunk.js": "/resumeSite/static/js/787.bdde258d.chunk.js",
+    "static/media/water-background.mp4": "/resumeSite/static/media/water-background.89f69a58e29c5a51e6ff.mp4",
+    "static/media/profilePicture.jpg": "/resumeSite/static/media/profilePicture.01d32a642b5bec0efb90.jpg",
+    "static/media/Resume - Personal Project.pdf": "/resumeSite/static/media/Resume - Personal Project.435ce707c8c53aa7532b.pdf",
+    "index.html": "/resumeSite/index.html",
+    "main.efc9bebe.css.map": "/resumeSite/static/css/main.efc9bebe.css.map",
+    "main.b3d325b2.js.map": "/resumeSite/static/js/main.b3d325b2.js.map",
+    "787.bdde258d.chunk.js.map": "/resumeSite/static/js/787.bdde258d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.efc9bebe.css",
-    "static/js/main.06964881.js"
+    "static/js/main.b3d325b2.js"
   ]
 }
