@@ -9,7 +9,7 @@ class Homepage extends React.Component {
                 <div className="homepageContentContainer">
                     <img src={profilePicture} id="profilePicture" />
                     <h1>Marcus Brooks</h1>
-                    <p>I am a software developer with a passion for programming and learning new things. I'm excited to work on whatever you may have for me.</p>
+                    <p>I am a software developer with a passion for programming and learning new things. My favorite kind of projects to work on are projects where I can visually see my code in action. However, I'm open minded when it comes to new projects and I'm excited to work on whatever you may have for me.</p>
                 </div>
             </div>
         );
