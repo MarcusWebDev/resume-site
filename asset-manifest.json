@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.01ad5ed3.css",
-    "main.js": "/static/js/main.fb0b5397.js",
-    "static/js/787.bdde258d.chunk.js": "/static/js/787.bdde258d.chunk.js",
+    "main.css": "/static/css/main.377e530c.css",
+    "main.js": "/static/js/main.73e77cd2.js",
+    "static/js/488.3e98f04c.chunk.js": "/static/js/488.3e98f04c.chunk.js",
     "static/media/water-background.mp4": "/static/media/water-background.89f69a58e29c5a51e6ff.mp4",
-    "static/media/profilePicture.jpg": "/static/media/profilePicture.01d32a642b5bec0efb90.jpg",
-    "static/media/Resume - Web Development.pdf": "/static/media/Resume - Web Development.f81f20513746445921e0.pdf",
+    "static/media/profile-picture.jpg": "/static/media/profile-picture.01d32a642b5bec0efb90.jpg",
+    "static/media/resume.pdf": "/static/media/resume.4eecf349d4c39a3dd80a.pdf",
     "index.html": "/index.html",
-    "main.01ad5ed3.css.map": "/static/css/main.01ad5ed3.css.map",
-    "main.fb0b5397.js.map": "/static/js/main.fb0b5397.js.map",
-    "787.bdde258d.chunk.js.map": "/static/js/787.bdde258d.chunk.js.map"
+    "main.377e530c.css.map": "/static/css/main.377e530c.css.map",
+    "main.73e77cd2.js.map": "/static/js/main.73e77cd2.js.map",
+    "488.3e98f04c.chunk.js.map": "/static/js/488.3e98f04c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01ad5ed3.css",
-    "static/js/main.fb0b5397.js"
+    "static/css/main.377e530c.css",
+    "static/js/main.73e77cd2.js"
   ]
 }
