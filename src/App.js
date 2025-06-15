@@ -1,8 +1,8 @@
 import backgroundVideo from "./Assets/water-background.mp4";
 import './App.css';
 import { Outlet, useLocation } from "react-router-dom";
-import NavBar from "./Components/NavBar/NavBar.js";
-import NavBarMobile from "./Components/NavBarMobile/NavBarMobile.js";
+import NavBar from "./components/NavBar/NavBar.js";
+import NavBarMobile from "./components/NavBarMobile/NavBarMobile.js";
 import { useEffect, useState } from "react";
 
 

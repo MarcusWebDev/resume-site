@@ -6,8 +6,8 @@ import {
 } from "react-router-dom";
 import './index.css';
 import App from './App';
-import Homepage from "./Components/Homepage/Homepage.js";
-import Projects from "./Components/Projects/Projects.js";
+import Homepage from "./components/Homepage/Homepage.js";
+import Projects from "./components/Projects/Projects.js";
 import reportWebVitals from './reportWebVitals';
 
 const router = createHashRouter([
