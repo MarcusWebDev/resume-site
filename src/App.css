@@ -8,7 +8,8 @@
   align-items: center;
   color: white;
 }
-#backgroundFilter {
+
+.background-filter {
   height: 100vh;
   width: 100vw;
   position: fixed;
@@ -18,7 +19,7 @@
   z-index: -1;
 }
 
-#backgroundVideo {
+.background-video {
   object-fit: cover;
   height: 100vh;
   width: 100vw;
@@ -27,6 +28,7 @@
   left: 0;
   z-index: -2;
 }
+
 p {
   margin: 0;
   font-size: 20px;

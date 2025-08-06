@@ -1,22 +1,22 @@
-import React, { useState } from "react";
+import React from "react";
 import "./NavBarMobile.css";
 import { Link } from "react-router-dom";
 import resume from "../../assets/resume.pdf";
 
-const NavBarMobile = (props) => {
-    const [isVisible, setIsVisible] = useState(false);
+const NavBarMobile = ({ location }) => {
+    const [isVisible, setIsVisible] = React.useState(false);
     return (
-        <div>
+        <div className="NavBarMobile">
             <div className={`hamburger ${isVisible ? "active" : ""}`} onClick={()=> setIsVisible(!isVisible)}>
-                <span className="bar"></span>
-                <span className="bar"></span>
-                <span className="bar"></span>
+                <span className="bar" />
+                <span className="bar" />
+                <span className="bar" />
             </div>
-            <div id="navBarMobileContainer" className={`${isVisible ? "navBarWidth" : "noWidth"}`}>
-                <div id="mobileLinksContainer">
-                    <Link to="/" className={`${props.location.pathname === "/" ? "mobileLinkActive" : ""} navBarLink`} >Home</Link>
-                    <Link to="/projects" className={`${props.location.pathname === "/projects" ? "mobileLinkActive" : ""} navBarLink`} >Projects</Link>
-                    <a href={resume} className="navBarLink">Resume</a>
+            <div className={`nav-bar-mobile-container ${isVisible ? "nav-bar-width" : "no-width"}`}>
+                <div className="mobile-links-container">
+                    <Link to="/" className={`${location.pathname === "/" ? "mobile-link-active" : ""} nav-bar-link`}>Home</Link>
+                    <Link to="/projects" className={`${location.pathname === "/projects" ? "mobile-link-active" : ""} nav-bar-link`}>Projects</Link>
+                    <a href={resume} className="nav-bar-link">Resume</a>
                 </div>
             </div>
         </div>
