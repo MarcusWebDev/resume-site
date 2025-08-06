@@ -24,9 +24,8 @@ const App = () => {
         <source src={backgroundVideo} type="video/mp4" />
       </video>
       <div className="background-filter" />
-      {isDesktop && <NavBar location={location} />}
+      {isDesktop ? <NavBar location={location} /> : <NavBarMobile location={location}/>}
       <Outlet />
-      {!isDesktop && <NavBarMobile location={location}/>}
     </div>
   );
 }
