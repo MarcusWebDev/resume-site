@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import resume from "../../Assets/resume.pdf";
+import resume from "../../assets/resume.pdf";
 import "./NavBar.css";
 
 const NavBar = (props) => {

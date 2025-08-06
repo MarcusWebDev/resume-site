@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./NavBarMobile.css";
 import { Link } from "react-router-dom";
-import resume from "../../Assets/resume.pdf";
+import resume from "../../assets/resume.pdf";
 
 const NavBarMobile = (props) => {
     const [isVisible, setIsVisible] = useState(false);

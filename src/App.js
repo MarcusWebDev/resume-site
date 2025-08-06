@@ -1,4 +1,4 @@
-import backgroundVideo from "./Assets/water-background.mp4";
+import backgroundVideo from "./assets/water-background.mp4";
 import './App.css';
 import { Outlet, useLocation } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar.js";
