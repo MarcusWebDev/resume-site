@@ -4,11 +4,11 @@ import {
   createHashRouter,
   RouterProvider,
 } from "react-router-dom";
-import './index.css';
-import App from './App';
-import Homepage from "./components/Homepage/Homepage.js";
-import Projects from "./components/Projects/Projects.js";
-import reportWebVitals from './reportWebVitals';
+import './index.scss';
+import App from './App.jsx';
+import Homepage from "./components/Homepage/Homepage.jsx";
+import Projects from "./components/Projects/Projects.jsx";
+import reportWebVitals from './reportWebVitals.js';
 
 const router = createHashRouter([
   {

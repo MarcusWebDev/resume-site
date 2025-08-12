@@ -1,5 +1,5 @@
 import React from "react";
-import "./NavBarMobile.css";
+import "./NavBarMobile.scss";
 import { Link } from "react-router-dom";
 import resume from "../../assets/resume.pdf";
 
