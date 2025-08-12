@@ -1,9 +1,9 @@
 import profilePicture from "../../assets/profile-picture.jpg";
-import "./Homepage.scss";
+import "./HomePage.scss";
 
-const Homepage = () => {
+const HomePage = () => {
     return (
-        <div className="Homepage">
+        <div className="HomePage">
             <div className="homepage-content-container">
                 <img className="profile-picture" src={profilePicture} alt='Marcus Brooks smiling.' />
                 <h1>Marcus Brooks</h1>
@@ -13,4 +13,4 @@ const Homepage = () => {
     );
 }
 
-export default Homepage;
+export default HomePage;

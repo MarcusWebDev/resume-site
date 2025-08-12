@@ -1,7 +1,6 @@
 import React from "react";
 import "./NavBarMobile.scss";
-import { Link } from "react-router-dom";
-import resume from "../../assets/resume.pdf";
+import NavBar from '../NavBar';
 
 const NavBarMobile = ({ location }) => {
     const [isVisible, setIsVisible] = React.useState(false);
@@ -12,13 +11,7 @@ const NavBarMobile = ({ location }) => {
                 <span className="bar" />
                 <span className="bar" />
             </div>
-            <div className={`nav-bar-mobile-container ${isVisible ? "nav-bar-width" : "no-width"}`}>
-                <div className="mobile-links-container">
-                    <Link to="/" className={`${location.pathname === "/" ? "mobile-link-active" : ""} nav-bar-link`}>Home</Link>
-                    <Link to="/projects" className={`${location.pathname === "/projects" ? "mobile-link-active" : ""} nav-bar-link`}>Projects</Link>
-                    <a href={resume} className="nav-bar-link">Resume</a>
-                </div>
-            </div>
+            <NavBar className={`mobile-nav-bar ${isVisible ? '' : 'no-width'}`} location={location}/>
         </div>
     );
 }

@@ -4,13 +4,13 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
 
-.projects-content-container {
-    max-width: 75%;
-}
+    .projects-content-container {
+        max-width: 75%;
 
-.projects-link {
-    color: white;
-    font-size: 20px;
+        .projects-link {
+            color: white;
+            font-size: 20px;
+        }
+    }
 }
