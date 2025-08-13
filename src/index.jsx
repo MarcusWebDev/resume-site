@@ -1,14 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import {
-  createHashRouter,
-  RouterProvider,
-} from "react-router-dom";
-import './index.scss';
-import App from './App.jsx';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { createHashRouter, RouterProvider } from "react-router-dom";
+import "./index.scss";
+import App from "./App.jsx";
 import Homepage from "./components/Homepage";
 import Projects from "./components/Projects";
-import reportWebVitals from './reportWebVitals.js';
+import reportWebVitals from "./reportWebVitals.js";
 
 const router = createHashRouter([
   {
@@ -21,17 +18,17 @@ const router = createHashRouter([
       },
       {
         path: "/projects",
-        element: <Projects />
-      }
-    ]
+        element: <Projects />,
+      },
+    ],
   },
 ]);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>
+  </React.StrictMode>,
 );
 
 // If you want to start measuring performance in your app, pass a function

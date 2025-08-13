@@ -1,3 +1,3 @@
-import Projects from './Projects.jsx';
+import Projects from "./Projects.jsx";
 
 export default Projects;
