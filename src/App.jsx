@@ -1,9 +1,11 @@
-import backgroundVideo from "./assets/water-background.mp4";
-import "./App.scss";
+import { useEffect, useState } from "react";
 import { Outlet, useLocation } from "react-router-dom";
+
+import "./App.scss";
+
+import backgroundVideo from "./assets/water-background.mp4";
 import NavBar from "./components/NavBar";
 import NavBarMobile from "./components/NavBarMobile";
-import { useEffect, useState } from "react";
 
 const App = () => {
   const location = useLocation();

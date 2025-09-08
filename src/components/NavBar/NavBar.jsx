@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
-import resume from "../../assets/resume.pdf";
+
 import "./NavBar.scss";
+
+import resume from "../../assets/resume.pdf";
 
 const NavBar = ({ location, className }) => {
   return (

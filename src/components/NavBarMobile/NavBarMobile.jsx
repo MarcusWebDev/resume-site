@@ -1,5 +1,7 @@
 import React from "react";
+
 import "./NavBarMobile.scss";
+
 import NavBar from "../NavBar";
 
 const NavBarMobile = ({ location }) => {
