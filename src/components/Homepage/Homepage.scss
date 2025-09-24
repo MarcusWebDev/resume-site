@@ -12,10 +12,20 @@
     align-items: center;
     max-width: 75%;
 
-    .profile-picture {
+    .profile-picture-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
       height: 200px;
+      width: 200px;
       border-radius: 200px;
       border: solid white 2px;
+      overflow: hidden;
+
+      .profile-picture {
+        height: 200px;
+      }
     }
   }
 }

@@ -6,11 +6,13 @@ const HomePage = () => {
   return (
     <div className="HomePage">
       <div className="homepage-content-container">
-        <img
-          className="profile-picture"
-          src={profilePicture}
-          alt="Marcus Brooks smiling."
-        />
+        <div className="profile-picture-container">
+          <img
+            className="profile-picture"
+            src={profilePicture}
+            alt="Marcus Brooks smiling."
+          />
+        </div>
         <h1>Marcus Brooks</h1>
         <p>
           I am a software developer with a passion for programming and learning
